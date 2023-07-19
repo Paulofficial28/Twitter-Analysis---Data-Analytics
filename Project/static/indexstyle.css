@@ -1,0 +1,66 @@
+/* style_main.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/downloaded.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 900px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .description {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .feature-list {
+    list-style-type: disc;
+    margin-left: 30px;
+    color: #333;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #componentContainer {
+    margin-top: 20px;
+  }
+  

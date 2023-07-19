@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Analysis</title>
+    <link href="static/indexstyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Social Media Analysis</h1>
+        <p class="description">Social media platforms have become a treasure trove of valuable insights. By analyzing social media data, businesses and individuals can gain a deep understanding of their audience, market trends, and brand reputation.</p>
+        <p class="description">Our Social Media Analysis tool provides a comprehensive set of features to help you make sense of the vast amount of data generated on various platforms:</p>
+        <ul class="feature-list">
+            <li>Sentiment Analysis: Understand public sentiment towards your brand or a specific topic.</li>
+            <li>Trend Identification: Identify emerging trends and stay ahead of the competition.</li>
+            <li>Customer Insights: Gain valuable insights into customer preferences, needs, and behaviors.</li>
+            <li>Influencer Analysis: Identify influential individuals who can impact your brand or industry.</li>
+            <li>Competitor Analysis: Analyze your competitors' social media presence and strategies.</li>
+            <li>Engagement Metrics: Measure and track audience engagement with your social media content.</li>
+        </ul>
+        <div class="button-container">
+            <a href="{{ url_for('dashboard') }}"><button id="dashboardButton">Dashboard</button></a>
+            <a href="{{url_for('story')}}"><button id="storyButton">Story</button></a>
+            <a href="{{url_for('report')}}"><button id="reportButton">Report</button></a>
+        </div>
+        <div id="componentContainer"></div>
+    </div>
+</body>
+</html>
